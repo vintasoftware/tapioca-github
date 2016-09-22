@@ -47,13 +47,13 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='tapioca-github',
+    name='tapioca-github-vinta',
     version=get_version(package),
     description='Github API wrapper using tapioca',
     long_description=readme,
     author='Gileno Filho',
     author_email='contato@gilenofilho.com.br',
-    url='https://github.com/gileno/tapioca-github',
+    url='https://github.com/vintasoftware/tapioca-github',
     packages=[
         'tapioca_github',
     ],
